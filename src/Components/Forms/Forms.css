@@ -23,12 +23,12 @@ background-color: #a33120;
   align-items: start;
   flex-direction: column;
   gap: 30px;
+
 }
 
 
 .forms{
   height: 500px;
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,6 +40,9 @@ background-color: #a33120;
   color: #245D7F;
   font-weight: 600;
   box-shadow: 15px 15px  10px #245D7F ;
+
+
+
 
 }
 #linha{
@@ -74,9 +77,37 @@ background-color: #a33120;
   display: flex;
   margin-top: 50px;
   justify-content: space-between;
+
+
 }
 
 .container__btn input{
   height: 35px;
   width: 100px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#btn_continuar{
+  background-color: #245D7F;
+  color: #fff;
+}
+#btn_continuar:hover{
+  background-color: rgb(14, 118, 179);
+  color: #fff;
+
+}
+
+#btn_voltar{
+  border: #245D7F solid 1px ;
+  background-color: transparent;
+  color: #245D7F;
+}
+
+#btn_voltar:hover{
+  background-color: #a33120a9;
+  color: #fff;
+
+
 }
