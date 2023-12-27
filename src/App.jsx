@@ -9,9 +9,15 @@ function App() {
   return (
     <>
     <section className='main_app'>
+      
+      
+      
       <Logo/>
       <Titulo/>
       <Forms/>
+
+
+
     </section>
     </>
   )

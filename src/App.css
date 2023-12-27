@@ -1,6 +1,25 @@
 .main_app{
+
   display: flex;
   gap: 500px;
   align-items: center;
   height: 100vh;
+  transition: 0.2s;
 }
+
+@media (max-width:1600px) {
+  .main_app{
+   gap: 200px;
+   transition: 0.2s;
+  }
+
+}
+
+@media (max-width:1330px) {
+  .main_app{
+   gap: 10px;
+   transition: 0.2s;
+  }
+  
+}
+

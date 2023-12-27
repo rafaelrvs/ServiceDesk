@@ -111,3 +111,10 @@ background-color: #a33120;
 
 
 }
+
+@media (max-width:1330px) {
+  .container__content, .forms{
+    margin-left: 50px;
+   transition: 0.2s;
+  }
+}
