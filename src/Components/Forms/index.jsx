@@ -2,16 +2,15 @@ import { useState } from "react";
 import "./Forms.css"
 
 const Forms = () => {
-
-
-   const [ sectionCircle , setctioncirCircle ] =  useState()
-
-
-   const  circuloSelecionado2 = document.querySelector(".circle2")
-   const  circuloSelecionado1 = document.querySelector(".circle1")
-   const  circuloSelecionado3 = document.querySelector(".circle3")
-
-
+  
+  
+  const [ sectionCircle , setctioncirCircle ] =  useState()
+  const  circuloSelecionado2 = document.querySelector(".circle2")
+  const  circuloSelecionado1 = document.querySelector(".circle1")
+  const  circuloSelecionado3 = document.querySelector(".circle3")
+  const [formDesativo, setFormDesativo] = useState(false)
+  
+  
 
 
    
@@ -78,23 +77,8 @@ setDescricao(descricaoInserida)
 const handleSubmit = async (e) => {
   e.preventDefault();
 
-  // Criar um objeto JSON com os dados do formulário
-  const formData = {
-    sectionCircle,
-    colaborador,
-    unidade,
-    descricao,
-  };
+  setFormDesativo(true);
 
-  try {
-    // Enviar os dados para a API usando axios (ou fetch)
-    const response = await axios.post('http://localhost:3000/api/dados', formData);
-
-    // Lógica adicional conforme necessário com a resposta da API
-    console.log('Resposta da API:', response.data);
-  } catch (error) {
-    console.error('Erro ao enviar dados para a API:', error);
-  }
 };
 
 

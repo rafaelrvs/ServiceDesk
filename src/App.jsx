@@ -3,9 +3,9 @@ import "./App.css"
 import Forms from './Components/Forms'
 import Titulo from './Components/Titulo'
 import Logo from '../public/Logo'
-function App() {
+function App({formDesativo}) {
 
-
+const [formDesativo, setFormDesativo] = useState([])
   return (
     <>
     <section className='main_app'>
@@ -14,7 +14,9 @@ function App() {
       
       <Logo/>
       <Titulo/>
-      <Forms/>
+      {formDesativo 
+      && <Forms formDesativo={formDesativo} setFormDesativo={setFormDesativo} />
+      }
 
 
 
