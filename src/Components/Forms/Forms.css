@@ -1,23 +1,4 @@
-.container__circle{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 50px;
-  width: 100%;
 
-}
-.circle1, .circle2, .circle3{
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  border: 2px solid #245D7F;
-}
-.circle1:hover, .circle2:hover, .circle3:hover{
-background-color: #a33120;
-
-
-
-}
 .container__content{
   display: flex;
   align-items: start;
@@ -34,8 +15,8 @@ background-color: #a33120;
   justify-content: center;
   margin-right: 300px;
   background-color: #fff;
-  padding: 60px;
-  width: 500px;
+  height: 450px;
+  width: 450px;
   border-radius: 25px;
   color: #245D7F;
   font-weight: 600;
@@ -76,7 +57,8 @@ background-color: #a33120;
 .container__btn{
   display: flex;
   margin-top: 50px;
-  justify-content: space-between;
+  justify-content: end;
+  margin-right: 25px;
 
 
 }

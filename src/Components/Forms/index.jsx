@@ -89,24 +89,18 @@ const handleSubmit = async (e) => {
       <section>
         <form className="forms" onSubmit={handleSubmit}>
 
-          <div className="container__circle" >
-            <div className="circle1" onClick={activeCircle01}  value={sectionCircle}  ></div>Manutenção
-            <div className="circle2" onClick={activeCircle02}  value={sectionCircle}  ></div> Solicitação
-            <div className="circle3" onClick={activeCircle03}  value={sectionCircle}  ></div> Acompanhamento
-          </div>
 
-          <hr id="linha" />
+    
           <div className="container__content">
             <label htmlFor="nome_do_colaborador" >Nome do colaborador</label>
             <input type="text" id="nome_do_colaborador" placeholder="Qual é seu nome?" value={colaborador} onChange={insertingColaborador} required />
             <label htmlFor="unidade">Unidade</label>
             <input type="text" placeholder="Qual é seu local de trabalho?" id="unidade"value={unidade} onChange={insertingUnidade} required />
-            <label htmlFor="descricao">Sobre sua solicitação</label>
-            <input type="text" placeholder=" Descreva sua solicitação" id="descricao" value={descricao} onChange={insertingDescription} required />
+ 
           </div>
 
           <div className="container__btn">
-            <input id="btn_voltar" type="button" value="Voltar" />
+          
             <input id="btn_continuar" type="submit" value="Continuar" />
           </div>
 
