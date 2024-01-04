@@ -1,102 +1,44 @@
-
-.container__content{
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-  gap: 30px;
-
-}
-
-
-.forms{
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-right: 300px;
-  background-color: #fff;
-  height: 450px;
-  width: 450px;
-  border-radius: 25px;
-  color: #245D7F;
-  font-weight: 600;
-  box-shadow: 15px 15px  10px #245D7F ;
-
-
-
-
-}
-#linha{
-  width: 90%;
-  border: #245D7F solid 0.5px;
+#forms{
+    display: flex;
+    background-color: #ffffff;
+    height: 300px;
+    gap: 15px;
+    justify-content: center;
+    width: 500px;
+    border-radius: 15px;
+    flex-direction: column;
+    margin-right: 500px ;
+    color: var(--planoDeFundo);
+    box-shadow: 1px 1px 15px black ;
 
 }
 
 
-
-
-.container__content{
-  display: flex;
-  margin-top: 50px;
-
-
-
-
-}
-.container__content input{
-  display: flex;
-  width: 350px;
-  height: 30px;
-  border-radius: 5px;
-  background-color: transparent;
-   border: #245D7F solid 0.5px;
-   margin-left: 50px;
-
+#forms h1, label{
+    margin-left: 25px;
 }
 
-.container__btn{
-  display: flex;
-  margin-top: 50px;
-  justify-content: end;
-  margin-right: 25px;
 
-
+.btn-prosseguir{
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
 }
 
-.container__btn input{
-  height: 35px;
-  width: 100px;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
+
+#nome-do-colaborador,#unidade{
+    width: 300px;
+    height: 25px;
+    border-radius:  5px;
+    border: 0.5px solid;
+    background-color: transparent;
+    margin-left: 25px;
 }
 
-#btn_continuar{
-  background-color: #245D7F;
-  color: #fff;
-}
-#btn_continuar:hover{
-  background-color: rgb(14, 118, 179);
-  color: #fff;
-
+.btn-prosseguir #btn{
+    background-color: transparent;
+    border: 2px solid #245d7f;
+    border-radius: 5px;
+    color: #245d7f;
 }
 
-#btn_voltar{
-  border: #245D7F solid 1px ;
-  background-color: transparent;
-  color: #245D7F;
-}
-
-#btn_voltar:hover{
-  background-color: #a33120a9;
-  color: #fff;
-
-
-}
-
-@media (max-width:1330px) {
-  .container__content, .forms{
-    margin-left: 50px;
-   transition: 0.2s;
-  }
-}

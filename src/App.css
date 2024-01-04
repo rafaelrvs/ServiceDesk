@@ -1,25 +1,14 @@
 .main_app{
-
-  display: flex;
-  gap: 100px;
-  align-items: center;
-  height: 100vh;
-  transition: 0.2s;
+    display: flex;
 }
 
-@media (max-width:1600px) {
-  .main_app{
-   gap: 200px;
-   transition: 0.2s;
-  }
 
+#img-a-amalfis{
+    position: fixed;
+    top: 50%;
+    left: 100%;
+    transform: translate(-47%,-50%);
+    height: 790PX;
+    opacity: 50%;
+    
 }
-
-@media (max-width:1330px) {
-  .main_app{
-   gap: 10px;
-   transition: 0.2s;
-  }
-  
-}
-

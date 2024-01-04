@@ -1,6 +1,8 @@
 :root {
 
   font-family: 'Roboto', sans-serif;
+
+   --planoDeFundo:#245d7f;
 }
 
 
@@ -8,12 +10,8 @@ body{
   display: flex;
   justify-content: end;
   align-items: center;
-  background: linear-gradient(45deg, #245d7f, #0e76b3);
+  background: var(--planoDeFundo);
   color:#fff;
   height: 100vh;
-
-
- 
-
 
 }
