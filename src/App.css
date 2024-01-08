@@ -1,14 +1,21 @@
 .main_app{
     display: flex;
+    
 }
 
-
-#img-a-amalfis{
-    position: fixed;
-    top: 50%;
-    left: 100%;
-    transform: translate(-47%,-50%);
-    height: 790PX;
-    opacity: 50%;
-    
+.containerTitleHome{
+    height: 250px;
+    width: 550px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+    text-shadow: 0 0 7px black;
+}
+.containerTitleHome h1{
+    font-size: 55pt;
+}
+.containerTitleHome h2{
+    font-size: 25pt;
+ 
 }
